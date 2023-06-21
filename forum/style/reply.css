@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .msg,
+  .allreply {
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .msg h3,
+  .reply h3 {
+    margin-top: 0;
+  }
+  
+ 
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .allreply {
+    width: 100%;
+  }
+  
+  .allreply tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  
+  .allreply td:nth-child(1) {
+    width: 20%;
+  }
+  
+  .allreply td:nth-child(2) {
+    width: 60%;
+  }
+  
+  .allreply td:nth-child(3) {
+    width: 20%;
+  }
+  .con{
+    margin-left: 10%;
+  }
+.td{
+    text-align: right;
+}
+
+.gray {
+	COLOR: #818a89;
+  padding-top: 20px;
+}
+
